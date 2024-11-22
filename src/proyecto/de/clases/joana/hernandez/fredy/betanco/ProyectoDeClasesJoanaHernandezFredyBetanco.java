@@ -20,21 +20,23 @@ public class ProyectoDeClasesJoanaHernandezFredyBetanco {
         char resp;
         do {
             System.out.println("Bienvenido/a al banco en linea oficial de UNITEC");
-            System.out.println("Presione x para salir del programa");
+            System.out.println("Presione x para salir del sitio");
             System.out.println("Tiene cuenta existente? s/n");
             resp = sc.next().charAt(0);
             
             switch (resp) {
                 case 's', 'S':
+                    
                     break;
                 case 'n','N':
+                    
                     break;
             }
             
         } while (resp != 'x');
         System.out.println();
         if (resp == 'x') {
-            System.out.println("Gracias por usar el programa");
+            System.out.println("Feliz dia");
         }
     }
     

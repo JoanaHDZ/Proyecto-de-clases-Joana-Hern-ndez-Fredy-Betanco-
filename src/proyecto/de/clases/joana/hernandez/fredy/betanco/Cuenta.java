@@ -8,6 +8,6 @@ package proyecto.de.clases.joana.hernandez.fredy.betanco;
  *
  * @author joana
  */
-public class Nueva_Cuenta {
+public class Cuenta {
     
 }
